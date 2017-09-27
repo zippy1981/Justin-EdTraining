@@ -8,5 +8,9 @@ namespace ClassLibrary1
 {
     public class Class1
     {
+        public string DateToString()
+        {
+            return DateTime.Today.ToShortDateString();
+        }
     }
 }
