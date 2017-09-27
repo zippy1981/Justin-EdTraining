@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="DateTimeHelperTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+    <ProjectReference Include="..\ClassLibrary1\DateTime.csproj">
       <Project>{e201d015-e4d0-4482-8192-471f7ccbc76f}</Project>
-      <Name>ClassLibrary1</Name>
+      <Name>DateTime</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
